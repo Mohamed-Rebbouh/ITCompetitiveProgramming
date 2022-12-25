@@ -1,0 +1,24 @@
+using System;
+class app
+{
+    static void Main(String[] args)
+    {
+        string num;int m;
+        System.Console.WriteLine("doonre chaine :");
+        num = System.Console.ReadLine();
+        
+        
+
+        try
+        {
+            m=Convert.ToInt32(num);
+            System.Console.WriteLine("good string");
+            System.Console.WriteLine(Convert.ToString(m));
+        }
+        catch(Exception) { System.Console.WriteLine("bad string");  }
+
+
+
+
+    }
+}
